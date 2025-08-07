@@ -1,9 +1,7 @@
-import Form from "./Form.";
+import Form from "./Form";
 
 export default function App() {
   return (
-    <>
     <Form/>
-    </>
-  );
+  )
 }
