@@ -46,7 +46,7 @@ const Form: React.FC = () => {
 
     return (
         <div className='className="min-h-screen bg-gray-900 flex items-center justify-center p-4'>
-            <div className="bg-white rounded-lg shadow-2xl w-full max-w-md p-6">
+            <div className="bg-black rounded-lg shadow-2xl w-full max-w-md p-6">
             <div>
                 <h1 className="text-6xl font-light text-gray-300 mb-2">todos</h1>
             </div>
@@ -74,7 +74,7 @@ const Form: React.FC = () => {
                         className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
                     >
                         <input
-                            type='checked'
+                            type='checkbox'
                             checked={todo.completed}
                             onChange={() => toggleTodo(todo.id)}
                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 focus:ring-2"
